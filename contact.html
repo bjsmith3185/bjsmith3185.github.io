@@ -3,6 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <!-- I used these 2 css files, the first one resets   -->
     <link rel="stylesheet" href="assets/css/reset.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -10,22 +11,23 @@
     <title> Portfolio for Brian J Smith </title>
 </head>
 
-<body class="contact">
+<!-- I used this class to make the font on the page smaller   -->
+<body class="smaller_font">
 
-    <section class="top_container_contact">
-        <div id="name_contact">
+    <section class="top_container_pages">
+        <div id="name_box">
             <h1><strong> Brian J Smith </strong></h1>
         </div>
 
         <div class="buttons_contact">
-            <input type="button" value="About" onclick="About()">
-            <input type="button" value="Portfolio" onclick="Portfolio()">
-            <input type="button" value="Contact" onclick="Contact()">
+            <a href="index.html"><button>About</button></a>
+            <a href="portfolio.html"><button>Portfolio</button></a>
+            <a href="contact.html"><button>Contact</button></a>
         </div>
 
     </section>
 
-
+    <!-- I used this div to create space   -->
     <div id="white_space_contact">
     </div>
 
@@ -36,8 +38,8 @@
         
             <h2> Contact </h2>
         
-            <div id="container_line">
-            </div>
+            <!-- I used this div to make a colored line   -->
+            <div id="container_line"></div>
 
             <div class="input_info">
 
@@ -56,37 +58,26 @@
                     <input type="text" id="message" name="message" placeholder="Your message..">
                 <br>
                 <br>
-                    <input type="submit" id="submit" value="Submit">
-
-            
-               
-                         
-            </div>
-
-
-
-                   
+                    <input type="submit" id="submit" value="Submit">         
+                                       
+            </div>               
         </section>
     </div>
 
-    
-    <div id="white_space2">
-    </div>
+    <!-- I used this div to add space   -->
+    <div id="white_space2"></div>
 
-
+    <!-- I used this section to create the sticky footer   -->
     <section class="sticky">
 
-        <div id="bottom_line"> 
-        </div>
+        <div id="bottom_line"></div>
 
 
         <div id="footer">
             This page was created on 3/7/2018 by BJ Smith.
         </div>
 
-    </section>
-
-    
+    </section>  
 
 </body>
 

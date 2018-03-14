@@ -1,19 +1,16 @@
-* {
+*  {
     box-sizing: border-box;
     font-size: 18px; 
     }
 
-
 body {
-    background-image: url("../images/circles-dark.png");
+    background-image: url("../images/dust_scratches.png");
     }
-
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px;
     }
-
 
 .top_container {
     background: white;
@@ -22,7 +19,6 @@ h1 {
     text-align: center;
           }
 
-
 #name {
     float: left;
     border: none;
@@ -30,9 +26,8 @@ h1 {
     margin-left: 300px;
     width: 200px;
     height: 80px;
-    background: rgb(111, 240, 240);
+    background: rgb(93, 187, 187);
     }
-
 
 .buttons {
     float: right;
@@ -40,11 +35,9 @@ h1 {
     margin-right: 280px;
     }
 
-
 #white_space {
     height: 50px;
     }
-
 
 #body_container {
     width: 960px;
@@ -54,15 +47,13 @@ h1 {
     margin: 0px 300px 0px 300px;
     }
 
-
+/* this class is also used again in the portfolio page */
 .container {
     background: lightgray;
         padding: 0px 30px 40px 30px;
     }
 
-
-h2 {
-    
+h2 { 
     padding-top: 20px;
     padding-bottom: 20px;
     background: lightgray;
@@ -70,7 +61,6 @@ h2 {
     font-size: 20px;
     
     }
-
 
 #pic1 {
     float: left;
@@ -80,23 +70,20 @@ h2 {
     margin: 0px 7px 7px 0px;
     }
 
-
 p {
     margin-top: 15px;
+    line-height: 18px;
     }
-
 
 #white_space2 {
     height: 2000px;
     }
     
-
 .sticky {
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     }
-
 
 #bottom_line {
     Border:none;
@@ -116,28 +103,26 @@ p {
 
 /* this begins css for the contact page in html */
 
-.contact {
+.smaller_font {
     font-size: 16px;
-}
+    }
 
-.top_container_contact {
+.top_container_pages {
     background: white;
     border: none;
     height: 65px;
     text-align: center;
-  
-}
+    }
 
-#name_contact {
+#name_box {
     float: left;
     border: none;
     padding: 16px;
     margin-left: 380px;
     width: 180px;
     height: 65px;
-    background: rgb(111, 240, 240);
-    
-}
+    background: rgb(93, 187, 187);
+    }
 
 .buttons_contact {
     float: right;
@@ -147,7 +132,7 @@ p {
 
 #white_space_contact {
     height: 30px;
-}
+    }   
 
 #body_container_contact {
     width: 760px;
@@ -155,17 +140,17 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid black;
     margin: 0px 380px 0px 380px;
-}
+    }
 
 #container_line {
     Border:none;
     height: 2px;
     background: #4aaaa5;
-}
+    }
 
 .input_info {
     margin-top: 20px;
-}
+    }
 
 
 #your_name {
@@ -175,7 +160,7 @@ p {
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
+    }
 
 
 #email {
@@ -185,7 +170,7 @@ p {
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
+    }
 
 
 #message {
@@ -197,21 +182,22 @@ p {
     border-radius: 4px;
     height: 100px;
     resize: none;
-    /* how to make the box bigger and drop to next line */
-}
+    /* how to make the text at the top */
+    }
 
 
 #submit {
     padding: 6px 10px;
-    margin: 8px 0;
+    margin: 8px 0 0 1px;
     border: 1px solid black;
     border-radius: 4px;
     cursor: pointer;
     background: rgb(199, 193, 193);
     }
 
-/* this begins css for the portfolio page in html */
 
+
+/* this begins css for the portfolio page in html */
 
 #body_container_portfolio {
     width: 760px;
@@ -220,9 +206,14 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid black;
     margin: 0px 380px 0px 380px;
-}
+    }
 
-/* links to porfolio projects */
+/* Below are the links to porfolio projects */
+
+
+    /* 1st row of links,
+        I seperated these out to make it easier
+        when i actually put a working link in */
 
 #row_1_left {
     float: left;
@@ -242,7 +233,7 @@ p {
     background: rgb(154, 240, 240);
     text-align: center;
     padding-top: 18px;
-}
+    }
 
 #row_1_center {
     float: left;
@@ -250,11 +241,21 @@ p {
     width: 200px;
     margin-top: 40px;
     margin-left: 20px;
-}
+    }
 
+#row_1_center_text {
+    position: absolute;
+    left: 636px;
+    top: 320px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background: rgb(154, 240, 240);
+    text-align: center;
+    padding-top: 18px;
+    }
 
-
-
+/* 2nd row of links */
 
 #row_2_left {
     clear: both;
@@ -263,8 +264,19 @@ p {
     width: 200px;
     margin-top: 40px;
     margin-left: 4px;
-    
-}
+    }
+
+#row_2_left_text {
+    position: absolute;
+    left: 416px;
+    top: 560px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background: rgb(154, 240, 240);
+    text-align: center;
+    padding-top: 18px;
+    }
 
 #row_2_center {
     float: left;
@@ -272,7 +284,21 @@ p {
     width: 200px;
     margin-top: 40px;
     margin-left: 20px;
-}
+    }
+
+#row_2_center_text {
+    position: absolute;
+    left: 636px;
+    top: 560px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background: rgb(154, 240, 240);
+    text-align: center;
+    padding-top: 18px;
+    }
+
+/* 3rd row of links */
 
 #row_3_left {
     clear: both;
@@ -281,8 +307,19 @@ p {
     width: 200px;
     margin-top: 40px;
     margin-left: 4px;
-    
-}
+    }
+
+#row_3_left_text {
+    position: absolute;
+    left: 416px;
+    top: 800px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background: rgb(154, 240, 240);
+    text-align: center;
+    padding-top: 18px;
+    }
 
 #row_3_center {
     float: left;
@@ -290,4 +327,16 @@ p {
     width: 200px;
     margin-top: 40px;
     margin-left: 20px;
-}
+    }
+
+#row_3_center_text {
+    position: absolute;
+    left: 636px;
+    top: 800px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background: rgb(154, 240, 240);
+    text-align: center;
+    padding-top: 18px;
+    }

@@ -3,6 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <!-- I used these 2 css files, the first one resets   -->
     <link rel="stylesheet" href="assets/css/reset.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -10,24 +11,24 @@
     <title> Portfolio for Brian J Smith </title>
 </head>
 
-<body class="contact">
+<!-- I used this class to make the font on the page smaller   -->
+<body class="smaller_font">
 
-    <section class="top_container_contact">
-        <div id="name_contact">
+    <section class="top_container_pages">
+        <div id="name_box">
             <h1><strong> Brian J Smith </strong></h1>
         </div>
 
         <div class="buttons_contact">
-            <input type="button" value="About" onclick="About()">
-            <input type="button" value="Portfolio" onclick="Portfolio()">
-            <input type="button" value="Contact" onclick="Contact()">
+            <a href="index.html"><button>About</button></a>
+            <a href="portfolio.html"><button>Portfolio</button></a>
+            <a href="contact.html"><button>Contact</button></a>
         </div>
 
     </section>
 
-
-    <div id="white_space_contact">
-    </div>
+    <!-- I used this div to create space   -->
+    <div id="white_space_contact"></div>
 
 
     <div id="body_container_portfolio">
@@ -36,82 +37,103 @@
         
             <h2> Portfolio </h2>
         
-            <div id="container_line">
-            </div>
+            <!-- I used this div to make a colored line   -->
+            <div id="container_line"></div>
 
-            <div id="row_1">
+
+            <section>
+                     <!-- This div is the left picture on row 1   -->
                     <div id="row_1_left">
                         <a href="https://www.google.com">
-                        <img alt="bjs" src="assets/images/placeholder200.png">
+                        <img alt="project link" src="assets/images/placeholder200.png">
                         </a>
                     </div>
+                    
+                    <!-- This div is the text box on left picture row 1   -->
                     <div id="row_1_left_text">
-                        Text Inside
+                        Text Inside   <!-- Filler text can be changed as needed   -->
                     </div>
 
+                    <!-- This div is the center picture on row 1   -->
                     <div id="row_1_center">
                         <a href="https://www.google.com">
-                        <img alt="bjs" src="assets/images/placeholder200.png">
+                        <img alt="project link" src="assets/images/placeholder200.png">
                         </a>
                     </div>
-            </div>
+
+                    <!-- This div is the text box on center picture row 1   -->
+                    <div id="row_1_center_text">
+                            Text Inside
+                    </div>
+            </section>
 
             <br>
             <br>
 
-            <div id="row_2">
+            <section>
                     <div id="row_2_left">
                         <a href="https://www.google.com">
-                        <img alt="bjs" src="assets/images/placeholder200.png">
+                        <img alt="project link" src="assets/images/placeholder200.png">
                         </a>
+                    </div>
+
+                    <div id="row_2_left_text">
+                            Text Inside
                     </div>
 
                     <div id="row_2_center">
                         <a href="https://www.google.com">
-                        <img alt="bjs" src="assets/images/placeholder200.png">
+                        <img alt="project link" src="assets/images/placeholder200.png">
                         </a>
                     </div>
-            </div>
+
+                    <div id="row_2_center_text">
+                            Text Inside
+                    </div>
+            </section>
 
             <br>
             <br>
 
-            <div id="row_3">
+            <section>
                     <div id="row_3_left">
                         <a href="https://www.google.com">
-                        <img alt="bjs" src="assets/images/placeholder200.png">
+                        <img alt="project link" src="assets/images/placeholder200.png">
                         </a>
-                        
+                    </div>
+
+                    <div id="row_3_left_text">
+                            Text Inside
                     </div>
 
                     <div id="row_3_center">
                         <a href="https://www.google.com">
-                        <img alt="bjs" src="assets/images/placeholder200.png">
+                        <img alt="project link" src="assets/images/placeholder200.png">
                         </a>
                     </div>
-            </div>
+
+                    <div id="row_3_center_text">
+                            Text Inside
+                    </div>
+            </section>
                    
         </section>
     </div>
 
-    
-    <div id="white_space2">
-    </div>
+    <!-- I used this div to add space   -->
+    <div id="white_space2"></div>
 
-
+    <!-- I used this section to create the sticky footer   -->
     <section class="sticky">
 
-        <div id="bottom_line"> 
-        </div>
+        <div id="bottom_line"></div>
 
 
         <div id="footer">
             This page was created on 3/7/2018 by BJ Smith.
         </div>
 
-    </section>
-
-    
+    </section> 
 
 </body>
 
