@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    font-size: 18px; 
+    }
+
+
+body {
+    background-image: url("../images/circles-dark.png");
+    }
+
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    }
+
+
+.top_container {
+    background: white;
+    border: none;
+    height: 80px;
+    text-align: center;
+          }
+
+
+#name {
+    float: left;
+    border: none;
+    padding: 23px;
+    margin-left: 300px;
+    width: 200px;
+    height: 80px;
+    background: rgb(111, 240, 240);
+    }
+
+
+.buttons {
+    float: right;
+    margin-top: 20px;
+    margin-right: 280px;
+    }
+
+
+#white_space {
+    height: 50px;
+    }
+
+
+#body_container {
+    width: 960px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    margin: 0px 300px 0px 300px;
+    }
+
+
+.container {
+    background: lightgray;
+        padding: 0px 30px 40px 30px;
+    }
+
+
+h2 {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: lightgray;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    
+    }
+
+
+#pic1 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 0px 7px 7px 0px;
+    }
+
+
+p {
+    margin-top: 15px;
+    }
+
+
+#white_space2 {
+    height: 2000px;
+    }
+    
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    }
+
+
+#bottom_line {
+    Border:none;
+    height: 7px;
+    background: #4aaaa5;
+    }
+
+#footer {
+    border: none;
+    height: 80px;
+    background: lightslategray;
+    text-align: center;
+    padding-top:60px;
+    font-size: 14px;
+    }
+
+
+/* this begins css for the contact page in html */
+
+.contact {
+    font-size: 16px;
+}
+
+.top_container_contact {
+    background: white;
+    border: none;
+    height: 65px;
+    text-align: center;
+  
+}
+
+#name_contact {
+    float: left;
+    border: none;
+    padding: 16px;
+    margin-left: 380px;
+    width: 180px;
+    height: 65px;
+    background: rgb(111, 240, 240);
+    
+}
+
+.buttons_contact {
+    float: right;
+    margin-top: 20px;
+    margin-right: 380px;
+    }
+
+#white_space_contact {
+    height: 30px;
+}
+
+#body_container_contact {
+    width: 760px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    margin: 0px 380px 0px 380px;
+}
+
+#container_line {
+    Border:none;
+    height: 2px;
+    background: #4aaaa5;
+}
+
+.input_info {
+    margin-top: 20px;
+}
+
+
+#your_name {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+#message {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 100px;
+    resize: none;
+    /* how to make the box bigger and drop to next line */
+}
+
+
+#submit {
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    background: rgb(199, 193, 193);
+    }
+
+/* this begins css for the portfolio page in html */
+
+
+#body_container_portfolio {
+    width: 760px;
+    height: 850px;
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    margin: 0px 380px 0px 380px;
+}
+
+/* links to porfolio projects */
+
+#row_1_left {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 4px;
+    }
+
+#row_1_left_text {
+    position: absolute;
+    left: 416px;
+    top: 320px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background: rgb(154, 240, 240);
+    text-align: center;
+    padding-top: 18px;
+}
+
+#row_1_center {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+
+
+
+#row_2_left {
+    clear: both;
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 4px;
+    
+}
+
+#row_2_center {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#row_3_left {
+    clear: both;
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 4px;
+    
+}
+
+#row_3_center {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
