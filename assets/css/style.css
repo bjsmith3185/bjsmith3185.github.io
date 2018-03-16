@@ -1,6 +1,8 @@
 *  {
     box-sizing: border-box;
-    font-size: 18px; 
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
     }
 
 body {
@@ -23,7 +25,7 @@ h1 {
     float: left;
     border: none;
     padding: 23px;
-    margin-left: 300px;
+    margin-left: 277px;
     width: 200px;
     height: 80px;
     background: rgb(93, 187, 187);
@@ -32,7 +34,7 @@ h1 {
 .buttons {
     float: right;
     margin-top: 20px;
-    margin-right: 280px;
+    margin-right: 277px;
     }
 
 #white_space {
@@ -40,11 +42,11 @@ h1 {
     }
 
 #body_container {
-    width: 960px;
+    
     background: white;
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid black;
-    margin: 0px 300px 0px 300px;
+    margin: 0px 277px 0px 277px;
     }
 
 /* this class is also used again in the portfolio page */
@@ -72,7 +74,7 @@ h2 {
 
 p {
     margin-top: 15px;
-    line-height: 18px;
+    line-height: 21px;
     }
 
 #white_space2 {
@@ -80,7 +82,6 @@ p {
     }
     
 .sticky {
-    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     }
@@ -104,7 +105,7 @@ p {
 /* this begins css for the contact page in html */
 
 .smaller_font {
-    font-size: 16px;
+    font-size: 14px;
     }
 
 .top_container_pages {
@@ -135,7 +136,7 @@ p {
     }   
 
 #body_container_contact {
-    width: 760px;
+  
     background: white;
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid black;
@@ -200,7 +201,7 @@ p {
 /* this begins css for the portfolio page in html */
 
 #body_container_portfolio {
-    width: 760px;
+ 
     height: 850px;
     background: lightgray;
     font-family: Arial, Helvetica, sans-serif;
