@@ -1,140 +1,69 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- I used these 2 css files, the first one resets   -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/reset.css">
-
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <title> Portfolio for Brian J Smith </title>
+    <title>About Me</title>
 </head>
+<body>
 
-<!-- I used this class to make the font on the page smaller   -->
-<body class="smaller_font">
+<header>
+    <nav id="nav_container">
+        <nav id="nav_left">
+            <a id="my_name" href="contact.html">BJ Smith</a>
+        </nav>
+        <nav id="nav_right">
+            <ul class="nav_links">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </nav>
 
-    <section class="top_container_pages">
-        <div id="name_box">
-            <h1><strong> Brian J Smith </strong></h1>
-        </div>
+</header>
 
-        <div class="buttons_contact">
-            <a href="index.html"><button>About</button></a>
-            <a href="portfolio.html"><button>Portfolio</button></a>
-            <a href="contact.html"><button>Contact</button></a>
-        </div>
+<section>
+    <div class="container">
+        <h1>About Me</h1>
 
-    </section>
-
-    <!-- I used this div to create space   -->
-    <div id="white_space_contact"></div>
-
-
-    <div id="body_container_portfolio">
-
-        <section class="container">
-        
-            <h2> Portfolio </h2>
-        
-            <!-- I used this div to make a colored line   -->
-            <div id="container_line"></div>
-
-
-            <section>
-                     <!-- This div is the left picture on row 1   -->
-                    <div id="row_1_left">
-                        <a href="https://www.google.com">
-                        <img alt="project link" src="assets/images/placeholder200.png">
-                        </a>
-                    </div>
+        <div class="body-portfolio">
+          
+            <div class="portfolio-link">
+                <img class="portfolio-image" src="assets/images/hangman.jpg" alt="hangman game">
+                <a class="title" href="future.html">Title for link</a>
+            </div>
                     
-                    <!-- This div is the text box on left picture row 1   -->
-                    <div id="row_1_left_text">
-                        Text Inside   <!-- Filler text can be changed as needed   -->
-                    </div>
+            <div class="portfolio-link">
+                <img class="portfolio-image" src="assets/images/info_app.jpg" alt="info app">
+                <a class="title" href="future.html">Title for link</a>
+            </div>
+            
+            <div class="portfolio-link">
+                <img class="portfolio-image" src="assets/images/rock_paper_sissors.jpg" alt="rps game">
+                <a class="title" href="future.html">Title for link</a>
+            </div>
+                    
+            <div class="portfolio-link">
+                <img class="portfolio-image" src="assets/images/rpg.jpg" alt="rpg game">
+                <a class="title" href="future.html">Title for link</a>
+            </div>
+        
+            <div class="portfolio-link">
+                <img class="portfolio-image" src="assets/images/trivia.png" alt="trivia game">
+                <a class="title" href="future.html">Title for link</a>
+            </div>
 
-                    <!-- This div is the center picture on row 1   -->
-                    <div id="row_1_center">
-                        <a href="https://www.google.com">
-                        <img alt="project link" src="assets/images/placeholder200.png">
-                        </a>
-                    </div>
-
-                    <!-- This div is the text box on center picture row 1   -->
-                    <div id="row_1_center_text">
-                            Text Inside
-                    </div>
-            </section>
-
-            <br>
-            <br>
-
-            <section>
-                    <div id="row_2_left">
-                        <a href="https://www.google.com">
-                        <img alt="project link" src="assets/images/placeholder200.png">
-                        </a>
-                    </div>
-
-                    <div id="row_2_left_text">
-                            Text Inside
-                    </div>
-
-                    <div id="row_2_center">
-                        <a href="https://www.google.com">
-                        <img alt="project link" src="assets/images/placeholder200.png">
-                        </a>
-                    </div>
-
-                    <div id="row_2_center_text">
-                            Text Inside
-                    </div>
-            </section>
-
-            <br>
-            <br>
-
-            <section>
-                    <div id="row_3_left">
-                        <a href="https://www.google.com">
-                        <img alt="project link" src="assets/images/placeholder200.png">
-                        </a>
-                    </div>
-
-                    <div id="row_3_left_text">
-                            Text Inside
-                    </div>
-
-                    <div id="row_3_center">
-                        <a href="https://www.google.com">
-                        <img alt="project link" src="assets/images/placeholder200.png">
-                        </a>
-                    </div>
-
-                    <div id="row_3_center_text">
-                            Text Inside
-                    </div>
-            </section>
-                   
-        </section>
-    </div>
-
-    <!-- I used this div to add space   -->
-    <div id="white_space2"></div>
-
-    <!-- I used this section to create the sticky footer   -->
-    <section class="sticky">
-
-        <div id="bottom_line"></div>
-
-
-        <div id="footer">
-            This page was created on 3/7/2018 by BJ Smith.
         </div>
+    </div>
+</section>
 
-    </section> 
-
+<footer>
+    <p id="footer_text">Created by BJS 06/2018</p>
+</footer>
+    
 </body>
-
 </html>

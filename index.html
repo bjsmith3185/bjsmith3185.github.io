@@ -1,72 +1,53 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- I used these 2 css files, the first one resets   -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/reset.css">
-
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <title> Portfolio for Brian J Smith </title>
+    <title>About Me</title>
 </head>
-
 <body>
 
-    <section class="top_container">
-        <div id="name">
-            <h1><strong> Brian J Smith </strong></h1>
+<header>
+    <nav id="nav_container">
+        <nav id="nav_left">
+            <a id="my_name" href="contact.html">BJ Smith</a>
+        </nav>
+        <nav id="nav_right">
+            <ul class="nav_links">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </nav>
+
+</header>
+
+<section>
+    <div class="container">
+        <h1>About Me</h1>
+
+        <div class="body">
+
+            <img id="my_image" src="assets/images/bjsresize.jpg" alt="picture of BJ"/>  
+            
+            <p class="about_me">My name is Brian J Smith. I was born in Chapel Hill North Carolina but grew up in Albemarle, just about one hour east of Charlotte. I graduated from Albemarle High School in 1993.</p>
+           
+            <p class="about_me">I attended Stanly Community College after high school where I received an Associate's degree in Drafting and Design Engineering. I then enrolled at UNCC and completed the Bachelor's degree program in Manufacturing Engineering.</p>
+            
+            <p class="about_me">I worked a few engineering type positions for a few years before taking a position with the City of Charlotte. While working for the City of Charlotte, I studied at Pfeiffer University and received my Master's in Business Administration.</p>
+           
+            <p class="about_me">I have always had an interest in how things are put together and operate. I am excited to take my career in a new direction with UNCC's Coding and Web Development Bootcamp! I began this program in March 2018 and will graduate in August the same year. I look forward to interviewing with companies in hopes of finding my perfect fit in the web development field!</p>
         </div>
-
-        <div class="buttons">
-<!-- I used buttons instead of just words for the links   -->
-            <a href="index.html"><button>About</button></a>
-            <a href="portfolio.html"><button>Portfolio</button></a>
-            <a href="contact.html"><button>Contact</button></a>
-        </div>
-    </section>
-
-<!-- I used a div box to give added space here   -->
-    <div id="white_space"></div>
-
-    <div id="body_container">
-
-        <section class="container">
-        
-            <h2> About Me </h2>
-
-            <!-- I used a div box to create a line with color   -->
-            <div id="container_line"></div>
-
-            <!-- I put the picture inside the paragraph so the text could wrap   -->
-            <p> <img id="pic1" src="assets/images/bjsresize.jpg" alt="my picture" >
-                My name is Brian J Smith. I was born in Chapel Hill North Carolina but grew up in Albemarle, just about one hour east of Charlotte. I graduated from Albemarle High School in 1993.</p>
-            <br>
-                <p>I attended Stanly Community College after high school where I received an Associate's degree in Drafting and Design Engineering. I then enrolled at UNCC and completed the Bachelor's degree program in Manufacturing Engineering.</p>
-            <br>
-                <p>I worked a few engineering type positions for a few years before taking a position with the City of Charlotte. While working for the City of Charlotte, I studied at Pfeiffer University and received my Master's in Business Administration.</p>
-            <br>
-                <p>I have always had an interest in how things are put together and operate. I am excited to take my career in a new direction with UNCC's Coding and Web Development Bootcamp! I began this program in March 2018 and will graduate in August the same year. I look forward to interviewing with companies in hopes of finding my perfect fit in the web development field!</p>
-                   
-        </section>
     </div>
+</section>
 
-    <!-- I used a div box to give added space here   -->
-    <div id="white_space2">
-    </div>
-
-    <!-- I made the footer sticky to stay in one location when scrolling down,
-         this would also be a good location for link buttons   -->
-    <section class="sticky">
-        <!-- I used a div box to create a line with color   -->
-        <div id="bottom_line"></div>
-
-        <div id="footer">
-            This page was created on 3/7/2018 by BJ Smith.
-        </div>
-
-    </section>
-
+<footer>
+    <p id="footer_text">Created by BJS 06/2018</p>
+</footer>
+    
 </body>
-
 </html>

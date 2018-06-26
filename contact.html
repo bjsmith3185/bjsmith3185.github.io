@@ -1,84 +1,56 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- I used these 2 css files, the first one resets   -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/reset.css">
-
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <title> Portfolio for Brian J Smith </title>
+    <title>Contact</title>
 </head>
+<body>
 
-<!-- I used this class to make the font on the page smaller   -->
-<body class="smaller_font">
+<header>
+    <nav id="nav_container">
+        <nav id="nav_left">
+            <a id="my_name" href="contact.html">BJ Smith</a>
+        </nav>
+        <nav id="nav_right">
+            <ul class="nav_links">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </nav>
 
-    <section class="top_container_pages">
-        <div id="name_box">
-            <h1><strong> Brian J Smith </strong></h1>
+</header>
+
+<section>
+    <div class="container">
+        <h1>Contact</h1>
+
+        <div class="body">
+            <form id="form">
+                <label for="fname" class="labels">Name</label>
+                <input type="text" id="fname" class="input-a" placeholder="Name">
+
+                <label for="email" class="labels">Email</label>
+                <input type="text" id="email" class="input-a" placeholder="Email">
+
+                <label for="textarea" class="labels">Message</label>
+                <textarea id="textarea">Message...</textarea>
+
+                <button type="submit" id="form-submit">Submit</button>
+            </form>
+            
         </div>
-
-        <div class="buttons_contact">
-            <a href="index.html"><button>About</button></a>
-            <a href="portfolio.html"><button>Portfolio</button></a>
-            <a href="contact.html"><button>Contact</button></a>
-        </div>
-
-    </section>
-
-    <!-- I used this div to create space   -->
-    <div id="white_space_contact">
     </div>
+</section>
 
-
-    <div id="body_container_contact">
-
-        <section class="container">
-        
-            <h2> Contact </h2>
-        
-            <!-- I used this div to make a colored line   -->
-            <div id="container_line"></div>
-
-            <div class="input_info">
-
-                    <label for="your_name">Name</label>
-                <br>
-                     <input type="text" id="your_name" name="name" placeholder="Your name..">
-                <br>
-                <br>
-                    <label for="email">Email</label>
-                <br>
-                    <input type="text" id="email" name="email" placeholder="Your email..">
-                <br>
-                <br>
-                    <label for="message">Message</label>
-                <br>
-                    <input type="text" id="message" name="message" placeholder="Your message..">
-                <br>
-                <br>
-                    <input type="submit" id="submit" value="Submit">         
-                                       
-            </div>               
-        </section>
-    </div>
-
-    <!-- I used this div to add space   -->
-    <div id="white_space2"></div>
-
-    <!-- I used this section to create the sticky footer   -->
-    <section class="sticky">
-
-        <div id="bottom_line"></div>
-
-
-        <div id="footer">
-            This page was created on 3/7/2018 by BJ Smith.
-        </div>
-
-    </section>  
-
+<footer>
+    <p id="footer_text">Created by BJS 06/2018</p>
+</footer>
+    
 </body>
-
 </html>
